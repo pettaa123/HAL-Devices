@@ -1,0 +1,9 @@
+{
+    "InstrumentIdentifier": "CAN1",
+    "InstrumentClass": "NI9862.lvclass",
+    "ConfigurationStrategyClass": "gRPC XNET Read Raw CAN Frame Strategy.lvclass",
+    "Attributes": {
+            "Interface": "PCAN_USBBUS1  0x51",
+            "Baudrate": "PCAN_BAUD_1M 0x0014"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "InstrumentIdentifier": "NEOXID480",
+    "InstrumentClass": "NEOXID480.lvclass",
+    "Attributes": {
+        "DbcCommunication": {
+            "DbcFilepath": "D:/git/HAL/HAL-Devices/tests/resources/Triple-Sensor-NEO480.dbc",
+            "ICommunicate": {
+                "InstrumentIdentifier": "CAN1",
+                "InstrumentClass": "NI9820.lvclass",
+                "Attributes": {
+                    "ConfigurationStrategyClass": "gRPC XNET Read Raw CAN Frame Strategy.lvclass",
+                    "Baudrate": 500000,
+                    "CanTerm": 1
+                }
+            }
+        }
+    }
+}
