@@ -31,6 +31,7 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test NI9862.lvclass" Type="LVClass" URL="../Tests/NI9862 gRPC cRIO/Test NI9862.lvclass"/>
 		</Item>
+		<Item Name="grpc-xnet_client.lvlib" Type="Library" URL="../../grpc-labview/BUILDS/xnet-client/grpc-xnet_client/grpc-xnet_client.lvlib"/>
 		<Item Name="NI9862.lvclass" Type="LVClass" URL="../Source/NI9862/NI9862.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
