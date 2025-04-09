@@ -25,13 +25,15 @@
 			<Item Name="IConfiguration.lvclass" Type="LVClass" URL="../../Source/Interfaces/IConfiguration/IConfiguration.lvclass"/>
 			<Item Name="IConfigure.lvclass" Type="LVClass" URL="../../Source/Interfaces/IConfigure/IConfigure.lvclass"/>
 			<Item Name="IInstrument.lvclass" Type="LVClass" URL="../../Source/Interfaces/IInstrument/IInstrument.lvclass"/>
+			<Item Name="IMessage.lvclass" Type="LVClass" URL="../../Source/Interfaces/IMessage/IMessage.lvclass"/>
 			<Item Name="IRunnable.lvclass" Type="LVClass" URL="../../Source/Interfaces/IRunnable/IRunnable.lvclass"/>
 			<Item Name="IValidate Configuration.lvclass" Type="LVClass" URL="../../Source/Interfaces/IValidate Configuration/IValidate Configuration.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test NI9862.lvclass" Type="LVClass" URL="../Tests/NI9862 gRPC cRIO/Test NI9862.lvclass"/>
 		</Item>
-		<Item Name="grpc-xnet_client.lvlib" Type="Library" URL="../../grpc-labview/BUILDS/xnet-client/grpc-xnet_client/grpc-xnet_client.lvlib"/>
+		<Item Name="CAN Message.lvclass" Type="LVClass" URL="../../Source/Messages/CAN Message/CAN Message.lvclass"/>
+		<Item Name="grpc-xnet_client.lvlib" Type="Library" URL="../../grpc-labview/BUILDS/grpc-xnet_client/grpc-xnet_client.lvlib"/>
 		<Item Name="NI9862.lvclass" Type="LVClass" URL="../Source/NI9862/NI9862.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
