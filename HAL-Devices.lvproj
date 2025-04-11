@@ -17,6 +17,10 @@
 			<Item Name="Config from JSON.lvclass" Type="LVClass" URL="../../Source/Config from JSON/Config from JSON.lvclass"/>
 		</Item>
 		<Item Name="Configure Strategies" Type="Folder">
+			<Item Name="PCAN" Type="Folder">
+				<Item Name="PCAN-USB Base Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/PCAN-USB Strategies/PCAN-USB Base Strategy/PCAN-USB Base Strategy.lvclass"/>
+				<Item Name="PCAN-USB Read-Write Raw CAN Frame Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/PCAN-USB Strategies/PCAN-USB Read-Write Raw CAN Frame Strategy/PCAN-USB Read-Write Raw CAN Frame Strategy.lvclass"/>
+			</Item>
 			<Item Name="gRPC XNET Read Raw CAN Frame Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/gRPC XNET Read Raw CAN Frame Strategy/gRPC XNET Read Raw CAN Frame Strategy.lvclass"/>
 		</Item>
 		<Item Name="HAL Interfaces" Type="Folder">
@@ -30,11 +34,12 @@
 			<Item Name="IValidate Configuration.lvclass" Type="LVClass" URL="../../Source/Interfaces/IValidate Configuration/IValidate Configuration.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
-			<Item Name="Test NI9862.lvclass" Type="LVClass" URL="../Tests/NI9862 gRPC cRIO/Test NI9862.lvclass"/>
+			<Item Name="Test Communicator.lvclass" Type="LVClass" URL="../Tests/NI9862 gRPC cRIO/Test Communicator.lvclass"/>
 		</Item>
 		<Item Name="CAN Message.lvclass" Type="LVClass" URL="../../Source/Messages/CAN Message/CAN Message.lvclass"/>
+		<Item Name="Communicator.lvclass" Type="LVClass" URL="../Source/Communicator/Communicator.lvclass"/>
+		<Item Name="DBC Communication.lvclass" Type="LVClass" URL="../../Source/DBC Communication/DBC Communication.lvclass"/>
 		<Item Name="grpc-xnet_client.lvlib" Type="Library" URL="../../grpc-labview/BUILDS/grpc-xnet_client/grpc-xnet_client.lvlib"/>
-		<Item Name="NI9862.lvclass" Type="LVClass" URL="../Source/NI9862/NI9862.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
