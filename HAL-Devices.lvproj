@@ -42,11 +42,11 @@
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test Communicator.lvclass" Type="LVClass" URL="../Tests/NI9862 gRPC cRIO/Test Communicator.lvclass"/>
 			<Item Name="Test Virtual NEO480.lvclass" Type="LVClass" URL="../Tests/Test Virtual NEO480/Test Virtual NEO480.lvclass"/>
-			<Item Name="Test Instrument Manager.lvclass" Type="LVClass" URL="../Test Instrument Manager/Test Instrument Manager.lvclass"/>
+			<Item Name="Test Instrument Manager.lvclass" Type="LVClass" URL="../Tests/Test Instrument Manager/Test Instrument Manager.lvclass"/>
 		</Item>
 		<Item Name="CAN Message.lvclass" Type="LVClass" URL="../../Source/Messages/CAN Message/CAN Message.lvclass"/>
-		<Item Name="Communicator.lvclass" Type="LVClass" URL="../../Source/Communicator/Communicator.lvclass"/>
 		<Item Name="grpc-xnet_client.lvlib" Type="Library" URL="../../grpc-labview/BUILDS/grpc-xnet_client/grpc-xnet_client.lvlib"/>
+		<Item Name="Communicator.lvclass" Type="LVClass" URL="../../Source/Communicator/Communicator.lvclass"/>
 		<Item Name="Virtual NEO480.lvclass" Type="LVClass" URL="../Source/Virtual NEO480/Virtual NEO480.lvclass"/>
 		<Item Name="DBC Communicator.lvclass" Type="LVClass" URL="../../Source/DBC Communicator/DBC Communicator.lvclass"/>
 		<Item Name="Instrument Manager.lvclass" Type="LVClass" URL="../../Source/Instrument Manager/Instrument Manager.lvclass"/>
