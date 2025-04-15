@@ -4,6 +4,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -15,6 +16,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Configuration Strategies" Type="Folder">
 			<Item Name="Config from JSON.lvclass" Type="LVClass" URL="../../Source/Config from JSON/Config from JSON.lvclass"/>
+			<Item Name="Config from XML.lvclass" Type="LVClass" URL="../../Source/Config from XML/Config from XML.lvclass"/>
 		</Item>
 		<Item Name="Configure Strategies" Type="Folder">
 			<Item Name="PCAN" Type="Folder">
@@ -32,14 +34,22 @@
 			<Item Name="IMessage.lvclass" Type="LVClass" URL="../../Source/Interfaces/IMessage/IMessage.lvclass"/>
 			<Item Name="IRunnable.lvclass" Type="LVClass" URL="../../Source/Interfaces/IRunnable/IRunnable.lvclass"/>
 			<Item Name="IValidate Configuration.lvclass" Type="LVClass" URL="../../Source/Interfaces/IValidate Configuration/IValidate Configuration.lvclass"/>
+			<Item Name="IVirtual Instrument.lvclass" Type="LVClass" URL="../../Source/Interfaces/IVirtual Instrument/IVirtual Instrument.lvclass"/>
+			<Item Name="IInitialize.lvclass" Type="LVClass" URL="../../Source/Interfaces/IInitialize/IInitialize.lvclass"/>
+			<Item Name="IClose.lvclass" Type="LVClass" URL="../../Source/Interfaces/IClose/IClose.lvclass"/>
+			<Item Name="IUnmanaged.lvclass" Type="LVClass" URL="../../Source/Interfaces/IUnmanaged/IUnmanaged.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test Communicator.lvclass" Type="LVClass" URL="../Tests/NI9862 gRPC cRIO/Test Communicator.lvclass"/>
+			<Item Name="Test Virtual NEO480.lvclass" Type="LVClass" URL="../Tests/Test Virtual NEO480/Test Virtual NEO480.lvclass"/>
+			<Item Name="Test Instrument Manager.lvclass" Type="LVClass" URL="../Test Instrument Manager/Test Instrument Manager.lvclass"/>
 		</Item>
 		<Item Name="CAN Message.lvclass" Type="LVClass" URL="../../Source/Messages/CAN Message/CAN Message.lvclass"/>
-		<Item Name="Communicator.lvclass" Type="LVClass" URL="../Source/Communicator/Communicator.lvclass"/>
-		<Item Name="DBC Communication.lvclass" Type="LVClass" URL="../../Source/DBC Communication/DBC Communication.lvclass"/>
+		<Item Name="Communicator.lvclass" Type="LVClass" URL="../../Source/Communicator/Communicator.lvclass"/>
 		<Item Name="grpc-xnet_client.lvlib" Type="Library" URL="../../grpc-labview/BUILDS/grpc-xnet_client/grpc-xnet_client.lvlib"/>
+		<Item Name="Virtual NEO480.lvclass" Type="LVClass" URL="../Source/Virtual NEO480/Virtual NEO480.lvclass"/>
+		<Item Name="DBC Communicator.lvclass" Type="LVClass" URL="../../Source/DBC Communicator/DBC Communicator.lvclass"/>
+		<Item Name="Instrument Manager.lvclass" Type="LVClass" URL="../../Source/Instrument Manager/Instrument Manager.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
