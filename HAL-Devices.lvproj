@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="24008000">
+	<Property Name="CCSymbols" Type="Str">AF_Debug_Trace,TRUE;</Property>
 	<Property Name="NI.LV.All.SaveVersion" Type="Str">24.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -23,7 +24,9 @@
 				<Item Name="PCAN-USB Base Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/PCAN-USB Strategies/PCAN-USB Base Strategy/PCAN-USB Base Strategy.lvclass"/>
 				<Item Name="PCAN-USB Read-Write Raw CAN Frame Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/PCAN-USB Strategies/PCAN-USB Read-Write Raw CAN Frame Strategy/PCAN-USB Read-Write Raw CAN Frame Strategy.lvclass"/>
 			</Item>
-			<Item Name="gRPC XNET Read Raw CAN Frame Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/gRPC XNET Read Raw CAN Frame Strategy/gRPC XNET Read Raw CAN Frame Strategy.lvclass"/>
+			<Item Name="gRPC XNET" Type="Folder">
+				<Item Name="gRPC XNET Read Raw CAN Frame Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/gRPC XNET Read Raw CAN Frame Strategy/gRPC XNET Read Raw CAN Frame Strategy.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="HAL Interfaces" Type="Folder">
 			<Item Name="ICommunicate.lvclass" Type="LVClass" URL="../../Source/Interfaces/ICommunicate/ICommunicate.lvclass"/>
@@ -44,9 +47,12 @@
 			<Item Name="Test Virtual NEO480.lvclass" Type="LVClass" URL="../Tests/Test Virtual NEO480/Test Virtual NEO480.lvclass"/>
 			<Item Name="Test Instrument Manager.lvclass" Type="LVClass" URL="../Tests/Test Instrument Manager/Test Instrument Manager.lvclass"/>
 		</Item>
+		<Item Name="Communicator" Type="Folder">
+			<Item Name="Communicator.lvclass" Type="LVClass" URL="../../Source/Communicator/Communicator.lvclass"/>
+			<Item Name="Communicator Worker.lvlib" Type="Library" URL="../../Source/Communicator Worker/Communicator Worker.lvlib"/>
+		</Item>
 		<Item Name="CAN Message.lvclass" Type="LVClass" URL="../../Source/Messages/CAN Message/CAN Message.lvclass"/>
 		<Item Name="grpc-xnet_client.lvlib" Type="Library" URL="../../grpc-labview/BUILDS/grpc-xnet_client/grpc-xnet_client.lvlib"/>
-		<Item Name="Communicator.lvclass" Type="LVClass" URL="../../Source/Communicator/Communicator.lvclass"/>
 		<Item Name="Virtual NEO480.lvclass" Type="LVClass" URL="../Source/Virtual NEO480/Virtual NEO480.lvclass"/>
 		<Item Name="DBC Communicator.lvclass" Type="LVClass" URL="../../Source/DBC Communicator/DBC Communicator.lvclass"/>
 		<Item Name="Instrument Manager.lvclass" Type="LVClass" URL="../../Source/Instrument Manager/Instrument Manager.lvclass"/>
