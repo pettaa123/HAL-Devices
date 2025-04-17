@@ -18,6 +18,7 @@
 		<Item Name="Configuration Strategies" Type="Folder">
 			<Item Name="Config from JSON.lvclass" Type="LVClass" URL="../../Source/Config from JSON/Config from JSON.lvclass"/>
 			<Item Name="Config from XML.lvclass" Type="LVClass" URL="../../Source/Config from XML/Config from XML.lvclass"/>
+			<Item Name="Config from EXCEL.lvclass" Type="LVClass" URL="../../Source/Config from EXCEL/Config from EXCEL.lvclass"/>
 		</Item>
 		<Item Name="Configure Strategies" Type="Folder">
 			<Item Name="PCAN" Type="Folder">
@@ -41,6 +42,7 @@
 			<Item Name="IInitialize.lvclass" Type="LVClass" URL="../../Source/Interfaces/IInitialize/IInitialize.lvclass"/>
 			<Item Name="IClose.lvclass" Type="LVClass" URL="../../Source/Interfaces/IClose/IClose.lvclass"/>
 			<Item Name="IUnmanaged.lvclass" Type="LVClass" URL="../../Source/Interfaces/IUnmanaged/IUnmanaged.lvclass"/>
+			<Item Name="IRead Temperature.lvclass" Type="LVClass" URL="../../Source/Interfaces/IRead Temperature/IRead Temperature.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test Communicator.lvclass" Type="LVClass" URL="../Tests/NI9862 gRPC cRIO/Test Communicator.lvclass"/>
