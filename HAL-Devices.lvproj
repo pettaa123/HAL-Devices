@@ -50,6 +50,8 @@
 			<Item Name="IRead Temperature Multichannel.lvclass" Type="LVClass" URL="../../Source/Interfaces/IRead Temperature Multichannel/IRead Temperature Multichannel.lvclass"/>
 			<Item Name="IRead Pressure.lvclass" Type="LVClass" URL="../../Source/Interfaces/IReadPressure/IRead Pressure.lvclass"/>
 			<Item Name="IRead Dew Point.lvclass" Type="LVClass" URL="../../HAL/Source/Interfaces/IRead Dew Point/IRead Dew Point.lvclass"/>
+			<Item Name="IRead Humidity.lvclass" Type="LVClass" URL="../../Source/Interfaces/IRead Humidity/IRead Humidity.lvclass"/>
+			<Item Name="IRead H2O Concentration.lvclass" Type="LVClass" URL="../../Source/Interfaces/IRead H2O Concentration/IRead H2O Concentration.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test Communicator.lvclass" Type="LVClass" URL="../Tests/NI9862 gRPC cRIO/Test Communicator.lvclass"/>
