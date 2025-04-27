@@ -53,6 +53,7 @@
 			<Item Name="IRead Humidity.lvclass" Type="LVClass" URL="../../Source/Interfaces/IRead Humidity/IRead Humidity.lvclass"/>
 			<Item Name="IRead H2O Concentration.lvclass" Type="LVClass" URL="../../Source/Interfaces/IRead H2O Concentration/IRead H2O Concentration.lvclass"/>
 			<Item Name="ILog Data.lvclass" Type="LVClass" URL="../../Source/Interfaces/ILog Data/ILog Data.lvclass"/>
+			<Item Name="IHasConfiguration.lvclass" Type="LVClass" URL="../../Source/Interfaces/IHasConfiguration/IHasConfiguration.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test Communicator.lvclass" Type="LVClass" URL="../Tests/NI9862 gRPC cRIO/Test Communicator.lvclass"/>
@@ -74,6 +75,7 @@
 		<Item Name="Virtual NEO480.lvclass" Type="LVClass" URL="../Source/Virtual NEO480/Virtual NEO480.lvclass"/>
 		<Item Name="Virtual Thermometer.lvclass" Type="LVClass" URL="../../Source/Virtual Thermometer/Virtual Thermometer.lvclass"/>
 		<Item Name="Action Point.lvclass" Type="LVClass" URL="../../Source/Action Point/Action Point.lvclass"/>
+		<Item Name="SimpleCsvDataLogger.lvclass" Type="LVClass" URL="../../Source/SimpleCsvDataLogger/SimpleCsvDataLogger.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
