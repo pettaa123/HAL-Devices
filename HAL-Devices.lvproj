@@ -22,8 +22,8 @@
 		</Item>
 		<Item Name="Configure Strategies" Type="Folder">
 			<Item Name="PCAN" Type="Folder">
-				<Item Name="PCAN-USB Base Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/PCAN-USB Strategies/PCAN-USB Base Strategy/PCAN-USB Base Strategy.lvclass"/>
-				<Item Name="PCAN-USB Read-Write Raw CAN Frame Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/PCAN-USB Strategies/PCAN-USB Read-Write Raw CAN Frame Strategy/PCAN-USB Read-Write Raw CAN Frame Strategy.lvclass"/>
+				<Item Name="PCAN Base Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/PCAN-USB Strategies/PCAN-USB Base Strategy/PCAN Base Strategy.lvclass"/>
+				<Item Name="PCAN Read-Write Raw CAN Frame Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/PCAN-USB Strategies/PCAN-USB Read-Write Raw CAN Frame Strategy/PCAN Read-Write Raw CAN Frame Strategy.lvclass"/>
 			</Item>
 			<Item Name="gRPC XNET" Type="Folder">
 				<Item Name="gRPC XNET Read Raw CAN Frame Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/gRPC XNET Read Raw CAN Frame Strategy/gRPC XNET Read Raw CAN Frame Strategy.lvclass"/>
