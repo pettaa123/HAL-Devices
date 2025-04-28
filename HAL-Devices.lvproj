@@ -59,6 +59,7 @@
 			<Item Name="Test Communicator.lvclass" Type="LVClass" URL="../Tests/NI9862 gRPC cRIO/Test Communicator.lvclass"/>
 			<Item Name="Test Virtual NEO480.lvclass" Type="LVClass" URL="../Tests/Test Virtual NEO480/Test Virtual NEO480.lvclass"/>
 			<Item Name="Test Instrument Manager.lvclass" Type="LVClass" URL="../Tests/Test Instrument Manager/Test Instrument Manager.lvclass"/>
+			<Item Name="demo.vi" Type="VI" URL="../Tests/Test Instrument Manager/demo.vi"/>
 		</Item>
 		<Item Name="Communicator" Type="Folder">
 			<Item Name="Communicator.lvclass" Type="LVClass" URL="../../Source/Communicator/Communicator.lvclass"/>
