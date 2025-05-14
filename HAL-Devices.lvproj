@@ -53,7 +53,10 @@
 				<Item Name="Stack PID Fan by Ref.vi" Type="VI" URL="../Tests/Demo/Stack PID Fan by Ref.vi"/>
 				<Item Name="Stop IRunable.vi" Type="VI" URL="../Tests/Demo/Stop IRunable.vi"/>
 				<Item Name="Stack1 (FGV).vi" Type="VI" URL="../Tests/Demo/Stack1 (FGV).vi"/>
+				<Item Name="Stack.ctl" Type="VI" URL="../Tests/Demo/Stack.ctl"/>
+				<Item Name="Stack2 (FGV).vi" Type="VI" URL="../Tests/Demo/Stack2 (FGV).vi"/>
 				<Item Name="Stack1 Indicator.vi" Type="VI" URL="../Tests/Demo/Stack1 Indicator.vi"/>
+				<Item Name="Progress Bar Switch.ctl" Type="VI" URL="../Tests/Demo/Progress Bar Switch.ctl"/>
 			</Item>
 			<Item Name="Test Communicator.lvclass" Type="LVClass" URL="../Tests/NI9862 gRPC cRIO/Test Communicator.lvclass"/>
 			<Item Name="Test Virtual NEO480.lvclass" Type="LVClass" URL="../Tests/Test Virtual NEO480/Test Virtual NEO480.lvclass"/>
@@ -100,7 +103,6 @@
 		<Item Name="Instrument Manager.lvclass" Type="LVClass" URL="../../Source/Instrument Manager/Instrument Manager.lvclass"/>
 		<Item Name="Action Point.lvclass" Type="LVClass" URL="../../Source/Action Point/Action Point.lvclass"/>
 		<Item Name="SimpleCsvDataLogger.lvclass" Type="LVClass" URL="../../Source/SimpleCsvDataLogger/SimpleCsvDataLogger.lvclass"/>
-		<Item Name="Stack2 (FGV).vi" Type="VI" URL="../Tests/Demo/Stack2 (FGV).vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
