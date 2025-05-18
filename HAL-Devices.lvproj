@@ -35,9 +35,11 @@
 			<Item Name="IRead Humidity.lvclass" Type="LVClass" URL="../../Source/Interfaces/IRead Humidity/IRead Humidity.lvclass"/>
 			<Item Name="IRead H2O Concentration.lvclass" Type="LVClass" URL="../../Source/Interfaces/IRead H2O Concentration/IRead H2O Concentration.lvclass"/>
 			<Item Name="ILog Data.lvclass" Type="LVClass" URL="../../Source/Interfaces/ILog Data/ILog Data.lvclass"/>
-			<Item Name="IHasConfiguration.lvclass" Type="LVClass" URL="../../Source/Interfaces/IHasConfiguration/IHasConfiguration.lvclass"/>
 			<Item Name="IWrite Duty Cycle.lvclass" Type="LVClass" URL="../../Source/Interfaces/IWrite Duty Cycle/IWrite Duty Cycle.lvclass"/>
 			<Item Name="IParse CSV.lvclass" Type="LVClass" URL="../../Source/Interfaces/IParse CSV/IParse CSV.lvclass"/>
+			<Item Name="IHas Configuration.lvclass" Type="LVClass" URL="../../Source/Interfaces/IHas Configuration/IHas Configuration.lvclass"/>
+			<Item Name="IHas Baud Rate.lvclass" Type="LVClass" URL="../../Source/Interfaces/IHas Baudrate/IHas Baud Rate.lvclass"/>
+			<Item Name="ICreate Action Point.lvclass" Type="LVClass" URL="../../Source/Interfaces/ICreate Action Point/ICreate Action Point.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Demo" Type="Folder">
@@ -61,6 +63,8 @@
 			<Item Name="Test Communicator.lvclass" Type="LVClass" URL="../Tests/NI9862 gRPC cRIO/Test Communicator.lvclass"/>
 			<Item Name="Test Virtual NEO480.lvclass" Type="LVClass" URL="../Tests/Test Virtual NEO480/Test Virtual NEO480.lvclass"/>
 			<Item Name="Test Instrument Manager.lvclass" Type="LVClass" URL="../Tests/Test Instrument Manager/Test Instrument Manager.lvclass"/>
+			<Item Name="Alarming Actor Strategy.lvclass" Type="LVClass" URL="../../Source/Alarming Strategy/Alarming Actor Strategy.lvclass"/>
+			<Item Name="Alarming Actor.lvlib" Type="Library" URL="../../../Alarming-Actor/Source/Alarming Actor/Alarming Actor.lvlib"/>
 		</Item>
 		<Item Name="Virtual Instruments" Type="Folder">
 			<Item Name="CSV Parser" Type="Folder">
