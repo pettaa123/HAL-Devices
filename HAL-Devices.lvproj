@@ -34,12 +34,13 @@
 			<Item Name="IRead Dew Point.lvclass" Type="LVClass" URL="../../Source/Interfaces/IRead Dew Point/IRead Dew Point.lvclass"/>
 			<Item Name="IRead Humidity.lvclass" Type="LVClass" URL="../../Source/Interfaces/IRead Humidity/IRead Humidity.lvclass"/>
 			<Item Name="IRead H2O Concentration.lvclass" Type="LVClass" URL="../../Source/Interfaces/IRead H2O Concentration/IRead H2O Concentration.lvclass"/>
+			<Item Name="IRead Image.lvclass" Type="LVClass" URL="../../Source/Interfaces/IRead Image/IRead Images/IRead Image.lvclass"/>
 			<Item Name="ILog Data.lvclass" Type="LVClass" URL="../../Source/Interfaces/ILog Data/ILog Data.lvclass"/>
 			<Item Name="IWrite Duty Cycle.lvclass" Type="LVClass" URL="../../Source/Interfaces/IWrite Duty Cycle/IWrite Duty Cycle.lvclass"/>
 			<Item Name="IParse CSV.lvclass" Type="LVClass" URL="../../Source/Interfaces/IParse CSV/IParse CSV.lvclass"/>
 			<Item Name="IHas Configuration.lvclass" Type="LVClass" URL="../../Source/Interfaces/IHas Configuration/IHas Configuration.lvclass"/>
-			<Item Name="IHas Baud Rate.lvclass" Type="LVClass" URL="../../Source/Interfaces/IHas Baudrate/IHas Baud Rate.lvclass"/>
 			<Item Name="ICreate Action Point.lvclass" Type="LVClass" URL="../../Source/Interfaces/ICreate Action Point/ICreate Action Point.lvclass"/>
+			<Item Name="INon-Uniformity Correction.lvclass" Type="LVClass" URL="../../Source/Interfaces/INon-Uniformity Correction/INon-Uniformity Correction.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Demo" Type="Folder">
@@ -65,6 +66,8 @@
 			<Item Name="Test Instrument Manager.lvclass" Type="LVClass" URL="../Tests/Test Instrument Manager/Test Instrument Manager.lvclass"/>
 			<Item Name="Alarming Actor Strategy.lvclass" Type="LVClass" URL="../../Source/Alarming Strategy/Alarming Actor Strategy.lvclass"/>
 			<Item Name="Alarming Actor.lvlib" Type="Library" URL="../../../Alarming-Actor/Source/Alarming Actor/Alarming Actor.lvlib"/>
+			<Item Name="Apply IMAQdx Attributes From JSON.lvclass" Type="LVClass" URL="../Tests/My Set IMAQdx Attributes From JSON/Apply IMAQdx Attributes From JSON.lvclass"/>
+			<Item Name="Test Camera.lvclass" Type="LVClass" URL="../Tests/Test Camera/Test Camera.lvclass"/>
 		</Item>
 		<Item Name="Virtual Instruments" Type="Folder">
 			<Item Name="CSV Parser" Type="Folder">
@@ -79,8 +82,8 @@
 				<Item Name="Thermometer Multichannel Worker.lvlib" Type="Library" URL="../../Source/Thermometer Multichannel Worker/Thermometer Multichannel Worker/Thermometer Multichannel Worker.lvlib"/>
 			</Item>
 			<Item Name="Virtual Thermometer.lvclass" Type="LVClass" URL="../../Source/Virtual Thermometer/Virtual Thermometer.lvclass"/>
-			<Item Name="Virtual NEO480.lvclass" Type="LVClass" URL="../Source/Virtual NEO480/Virtual NEO480.lvclass"/>
-			<Item Name="Virtual PWM Generator.lvclass" Type="LVClass" URL="../Source/Virtual PWM Generator/Virtual PWM Generator.lvclass"/>
+			<Item Name="Virtual NEO480.lvclass" Type="LVClass" URL="../Source/Virtual Instruments/Virtual NEO480/Virtual NEO480.lvclass"/>
+			<Item Name="Virtual PWM Generator.lvclass" Type="LVClass" URL="../Source/Virtual Instruments/Virtual PWM Generator/Virtual PWM Generator.lvclass"/>
 		</Item>
 		<Item Name="Instruments" Type="Folder">
 			<Item Name="Communicator" Type="Folder">
@@ -96,9 +99,18 @@
 					<Item Name="gRPC XNET Read Raw CAN Frame Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/gRPC XNET Read Raw CAN Frame Strategy/gRPC XNET Read Raw CAN Frame Strategy.lvclass"/>
 				</Item>
 				<Item Name="DAQmx" Type="Folder">
-					<Item Name="DAQmx Thermocouple Continuous Read Strategy.lvclass" Type="LVClass" URL="../Source/DAQmx Thermocouple Continuous Read Strategy/DAQmx Thermocouple Continuous Read Strategy.lvclass"/>
-					<Item Name="DAQmx Base Configure Strategy.lvclass" Type="LVClass" URL="../Source/DAQmx Base Configure Strategy/DAQmx Base Configure Strategy.lvclass"/>
+					<Item Name="DAQmx Thermocouple Continuous Read Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/DAQmx/DAQmx Thermocouple Continuous Read Strategy/DAQmx Thermocouple Continuous Read Strategy.lvclass"/>
+					<Item Name="DAQmx Base Configure Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/DAQmx/DAQmx Base Configure Strategy/DAQmx Base Configure Strategy.lvclass"/>
 				</Item>
+				<Item Name="IMAQdx" Type="Folder">
+					<Item Name="IMAQdx Triggered Continuous Acquisition.lvclass" Type="LVClass" URL="../Source/Configure Strategies/IMAQdx Strategies/Continuous Acquisition/IMAQdx Triggered Continuous Acquisition.lvclass"/>
+					<Item Name="IMAQdx Base Configure Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/IMAQdx Strategies/Base/IMAQdx Base Configure Strategy.lvclass"/>
+				</Item>
+			</Item>
+			<Item Name="Camera" Type="Folder">
+				<Item Name="Camera.lvclass" Type="LVClass" URL="../../Source/Camera/Camera.lvclass"/>
+				<Item Name="Camera Worker.lvlib" Type="Library" URL="../../Source/Camera Worker/Camera Worker.lvlib"/>
+				<Item Name="Flir A700.lvclass" Type="LVClass" URL="../Source/Flir A700/Flir A700.lvclass"/>
 			</Item>
 			<Item Name="DBC Communicator.lvclass" Type="LVClass" URL="../../Source/DBC Communicator/DBC Communicator.lvclass"/>
 		</Item>

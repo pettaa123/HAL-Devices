@@ -1,0 +1,34 @@
+{
+    "InstrumentIdentifier": "A700",
+    "InstrumentClass": "IMAQdx Camera.lvclass",
+    "Attributes": {
+		"Imaqdx": {
+			"buffer_size": 50,
+			"
+		},
+        "Device": {
+            "Width": 640, //does settings pams work with non capitalized pam names?
+            "Height": 480,
+            "PixelFormat": "Mono16",
+            "FocusPos": 51000,
+            "NUCMode": "Off",
+            "NoiseReduction": "On",
+            "IRFormat": "Radiometric"
+        },
+        "Acquisition": {
+            "AcquisitionMode": "Continuous",
+            "AcquisitionFrameCount": 1,
+            "AcquisitionFrameRate": 10,
+            "IncompleteBufferMode": "Fail",
+            "OutputImageType": "Grayscale (U16)",
+            "OverwriteMode": "Fail"
+        },
+        "Trigger": {
+            "TriggerSelector": "AcquisitionStart",
+            "TriggerMode": "On",
+            "TriggerSource": "Line0",
+            "TriggerActivation": "RisingEdge",
+            "TriggerDelay": 0
+        }
+    }
+}
