@@ -40,7 +40,7 @@
 			<Item Name="IParse CSV.lvclass" Type="LVClass" URL="../../Source/Interfaces/IParse CSV/IParse CSV.lvclass"/>
 			<Item Name="IHas Configuration.lvclass" Type="LVClass" URL="../../Source/Interfaces/IHas Configuration/IHas Configuration.lvclass"/>
 			<Item Name="ICreate Action Point.lvclass" Type="LVClass" URL="../../Source/Interfaces/ICreate Action Point/ICreate Action Point.lvclass"/>
-			<Item Name="INon-Uniformity Correction.lvclass" Type="LVClass" URL="../../Source/Interfaces/INon-Uniformity Correction/INon-Uniformity Correction.lvclass"/>
+			<Item Name="ICorrect Non-Uniformity.lvclass" Type="LVClass" URL="../../Source/Interfaces/INon-Uniformity Correction/ICorrect Non-Uniformity.lvclass"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Demo" Type="Folder">
@@ -108,6 +108,7 @@
 				</Item>
 			</Item>
 			<Item Name="Camera" Type="Folder">
+				<Item Name="Reply Msg Generic Image Arr.lvclass" Type="LVClass" URL="../../Source/Camera Worker/Reply Msg Generic Image Arr/Reply Msg Generic Image Arr.lvclass"/>
 				<Item Name="Camera.lvclass" Type="LVClass" URL="../../Source/Camera/Camera.lvclass"/>
 				<Item Name="Camera Worker.lvlib" Type="Library" URL="../../Source/Camera Worker/Camera Worker.lvlib"/>
 				<Item Name="Flir A700.lvclass" Type="LVClass" URL="../Source/Flir A700/Flir A700.lvclass"/>
