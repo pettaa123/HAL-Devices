@@ -61,13 +61,6 @@
 				<Item Name="Stack1 Indicator.vi" Type="VI" URL="../Tests/Demo/Stack1 Indicator.vi"/>
 				<Item Name="Progress Bar Switch.ctl" Type="VI" URL="../Tests/Demo/Progress Bar Switch.ctl"/>
 			</Item>
-			<Item Name="Test Communicator.lvclass" Type="LVClass" URL="../Tests/NI9862 gRPC cRIO/Test Communicator.lvclass"/>
-			<Item Name="Test Virtual NEO480.lvclass" Type="LVClass" URL="../Tests/Test Virtual NEO480/Test Virtual NEO480.lvclass"/>
-			<Item Name="Test Instrument Manager.lvclass" Type="LVClass" URL="../Tests/Test Instrument Manager/Test Instrument Manager.lvclass"/>
-			<Item Name="Alarming Actor Strategy.lvclass" Type="LVClass" URL="../../Source/Alarming Strategy/Alarming Actor Strategy.lvclass"/>
-			<Item Name="Alarming Actor.lvlib" Type="Library" URL="../../../Alarming-Actor/Source/Alarming Actor/Alarming Actor.lvlib"/>
-			<Item Name="Apply IMAQdx Attributes From JSON.lvclass" Type="LVClass" URL="../Tests/My Set IMAQdx Attributes From JSON/Apply IMAQdx Attributes From JSON.lvclass"/>
-			<Item Name="Test Camera.lvclass" Type="LVClass" URL="../Tests/Test Camera/Test Camera.lvclass"/>
 		</Item>
 		<Item Name="Virtual Instruments" Type="Folder">
 			<Item Name="CSV Parser" Type="Folder">
@@ -95,6 +88,10 @@
 					<Item Name="PCAN Base Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/PCAN-USB Strategies/PCAN-USB Base Strategy/PCAN Base Strategy.lvclass"/>
 					<Item Name="PCAN Read-Write Raw CAN Frame Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/PCAN-USB Strategies/PCAN-USB Read-Write Raw CAN Frame Strategy/PCAN Read-Write Raw CAN Frame Strategy.lvclass"/>
 				</Item>
+				<Item Name="PCAN Basic" Type="Folder">
+					<Item Name="PCAN Basic Base Configure Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/PCAN Basic Strategies/Base Configure Strategy/PCAN Basic Base Configure Strategy.lvclass"/>
+					<Item Name="PCAN Basic Read-Write CAN Frame Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/PCAN Basic Strategies/Read-Write CAN Frame Strategy/PCAN Basic Read-Write CAN Frame Strategy.lvclass"/>
+				</Item>
 				<Item Name="gRPC XNET" Type="Folder">
 					<Item Name="gRPC XNET Read Raw CAN Frame Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/gRPC XNET Read Raw CAN Frame Strategy/gRPC XNET Read Raw CAN Frame Strategy.lvclass"/>
 				</Item>
@@ -106,6 +103,7 @@
 					<Item Name="IMAQdx Triggered Continuous Acquisition.lvclass" Type="LVClass" URL="../Source/Configure Strategies/IMAQdx Strategies/Continuous Acquisition/IMAQdx Triggered Continuous Acquisition.lvclass"/>
 					<Item Name="IMAQdx Base Configure Strategy.lvclass" Type="LVClass" URL="../Source/Configure Strategies/IMAQdx Strategies/Base/IMAQdx Base Configure Strategy.lvclass"/>
 				</Item>
+				<Item Name="Look in Map.vi" Type="VI" URL="../Source/Common/Look in Map.vi"/>
 			</Item>
 			<Item Name="Camera" Type="Folder">
 				<Item Name="Reply Msg Generic Image Arr.lvclass" Type="LVClass" URL="../../Source/Camera Worker/Reply Msg Generic Image Arr/Reply Msg Generic Image Arr.lvclass"/>
@@ -116,10 +114,10 @@
 			<Item Name="DBC Communicator.lvclass" Type="LVClass" URL="../../Source/DBC Communicator/DBC Communicator.lvclass"/>
 		</Item>
 		<Item Name="CAN Message.lvclass" Type="LVClass" URL="../../Source/Messages/CAN Message/CAN Message.lvclass"/>
-		<Item Name="grpc-xnet_client.lvlib" Type="Library" URL="../../grpc-labview/BUILDS/grpc-xnet_client/grpc-xnet_client.lvlib"/>
 		<Item Name="Instrument Manager.lvclass" Type="LVClass" URL="../../Source/Instrument Manager/Instrument Manager.lvclass"/>
 		<Item Name="Action Point.lvclass" Type="LVClass" URL="../../Source/Action Point/Action Point.lvclass"/>
 		<Item Name="SimpleCsvDataLogger.lvclass" Type="LVClass" URL="../../Source/SimpleCsvDataLogger/SimpleCsvDataLogger.lvclass"/>
+		<Item Name="Tests HAL-Devices.lvproj" Type="Document" URL="../Tests/Tests HAL-Devices.lvproj"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
